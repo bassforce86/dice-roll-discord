@@ -28,7 +28,7 @@ client.on('message', message => {
 	  if (isValidDie(die)) {
 	    message.channel.send(`${message.author.username} rolled a: ${roll(die)}`);
 	  } else {
-	    message.channel.send('Invalid die choice');
+	    message.channel.send('Invalid die!');
 	  }
 	}
 

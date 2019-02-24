@@ -7,7 +7,7 @@ function roll(number) {
 }
 
 function isValidDie(number) {
-  return number % 2 == 0 && number > 3 && number < 21;
+  return number % 2 === 0 && (number > 3 && number < 21) || number === 100;
 }
 
 

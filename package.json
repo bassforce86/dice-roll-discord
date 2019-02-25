@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "discord-bot",
   "main": "index.js",
-  "repository": "git@gitlab.com:Bassbase.jk/dice-roll-discord.git",
-  "scripts": {
-    "test": "node index.js"
-  },
+  "repository": "git@github.com:bassforce86/dice-roll-discord.git",
   "author": "James King",
   "license": "ISC",
   "dependencies": {

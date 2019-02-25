@@ -1,1 +1,7 @@
-{ "version":2 }
+{
+  "version":2,
+  "env" :{
+    "token":"NTQ4NjI4NDE5MjEwOTAzNTUy.D1LGWQ.LTZ2rwl3TPOLfY3BtjLDJQdGkW4"
+  }
+  
+}

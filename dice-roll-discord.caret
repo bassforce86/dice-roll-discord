@@ -1,3 +1,8 @@
 {
-  "folders": []
+  "folders": [
+    {
+      "retained": "99412456DAC3C124A86533386C75C49A:dice-roll-discord",
+      "path": "/dice-roll-discord"
+    }
+  ]
 }

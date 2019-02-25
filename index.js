@@ -1,4 +1,4 @@
-const { prefix, token } = require('./config.json');
+const prefix = "!";
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -10,10 +10,10 @@ function isValidDie(number) {
   return number % 2 === 0 && (number > 3 && number < 21) || number === 100;
 }
 
-
+require('http').createServer().listen(3000);
 
 client.once('ready', () => {
-	console.log('Ready!');
+  console.log(`Logged in as ${client.user.tag}!`);
 });
 
 client.on('message', message => {
@@ -34,6 +34,6 @@ client.on('message', message => {
 
 });
 
-client.login(token);
+client.login(process.env.TOKEN);
 
 

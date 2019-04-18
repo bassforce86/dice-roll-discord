@@ -22,9 +22,10 @@ client.on('message', message => {
 	
 	if (command === 'rolld'){
 	  var die = parseInt(args[0]);
-	  
+		args.shift();
+	  var reason = args.join(' ');
 	  if (isValidDie(die)) {
-	    message.channel.send(`${message.author.username} rolled a: ${roll(die)}`);
+	    message.channel.send(`${message.author.username} rolled a: ${roll(die)} for ${reason}`);
 	  } else {
 	    message.channel.send('Invalid die!');
 	  }
